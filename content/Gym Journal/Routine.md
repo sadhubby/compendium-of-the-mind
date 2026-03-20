@@ -6,7 +6,7 @@ tags:
 ---
 This is my gym routine to guide me in the gym and maximize my time. This is hosted to also help others that need it. I am currently a beginner in the gym as of time of writing. 
 
-This routine will follow a PPL (Push-Pull-Leg) Routine finishing a cardio. To follow, this is a Gym day followed by a Rest day. I will include here the ****
+This routine will follow a PPL (Push-Pull-Leg) Routine finishing a cardio. To follow, this is a Gym day followed by a Rest day. I will include here the Workout, Sets and Reps and its Target and also the Proper Form.
 
 # Push Day
 
