@@ -36,7 +36,7 @@ tags:
 	- '\*' is multiply, '/' is divide, '-' is subtract, '+' is addition, produces float or int and stored to Armory.int or Armory.float depending on produced
 	- Operations can be stacked. Done left to right.
 9. Float and int default have 0 if not yet assigned anything (null), boolean is default true
-10. ==*Assemble*== writes all values of Armory on screen in this order: **int, float boolean**
+10. ==*Assemble*== writes all values of Armory on screen in this order: **int, float, boolean**
 	- if value has not been changed, 'null' is result.
 11. To do repetition in code, its as simple as declaring ==*Again*== in an Assume context to repeat code. ==*Again*== is declared alongside a **value** that will only top until equal. 
 	- This is a loop
@@ -54,7 +54,7 @@ Assume {
 ```
 
 
-**A question I asked to Seaver**
+**A set of questions I asked to Seaver**
 Seeing the example usage of the Again keywords. We see that it is first established Armory.int = 20, then we add into Armory. This should go to the int then we declare the Again. 
 
 I'd like to ask a few questions:
@@ -64,18 +64,20 @@ I'd like to ask a few questions:
    Armory + y
    Should the output be x+y, null, null?
 4. Is the Again keyword inclusive of the function it is in? Meaning that after the Again happens, the next pass is Again 21, or will the Again value start on the next pass? Meaning we do once we get to Again, we pass it, that's the first of 22?
+--- 
 
+<div style="page-break-after: always;"></div>
 
 # Questions 
 
 **Question 1**: What is the output of the code?
 ```
 Anteriore start
-Armory.int = 20 //declated Armory.int in this context to be 20
-Armory * Armory.int // Armory specifically its int becomes 0 because two diff contexts
-Assemble //0, null, null
+Armory.int = 20 //declared Armory.int in this context to be 20
+Armory * Armory.int // Same context, so 20 * 20
+Assemble
 Assume{
-	Armory + 2 
+	Armory + 2 //new Armory Context
 	Assemble 
 	Armory < 3 
 	Again true
@@ -83,41 +85,67 @@ Assume{
 Anteriore end
 ```
 
-**Answer**
+20
+20 * 20 = 400
+400,null,null
+
 In Assume function 
 First pass
 	0 + 2 = 2
-	2,null,null
-	False
-Second Pass
-	2 + 2 = 4
-	4, null, null
-	True
-	Exit Assume
+	2, null, null
+	2 < 3 is true
+	it is true, so Again stops
 
-Answer: **4, null, null**
+**==Answer 1==**
+400, null, null
+2, null, null
 
-Possible questions to Seaver:
-
+<div style="page-break-after: always;"></div>
 
 **Question 2**: What is the output of the code?
 
 ```
 Anteriore start
 Assume{
-	Armory - 2 // -2,null,null
-	Assume{
-		Assemble // -2, null, null
+	Armory - 2 
+	Assume{ // new Context so this should be null,null,null
+		Assemble 
 	}
-	Armory > 0.0 // false
-	Armory + 2.0 // float value, 2.0
-	Again true // still currently false , need to do one more pass to change conditional
-	Assemble // -2, 2.0, false 
+	Armory > 0.0 
+	Armory + 2.0 
+	Again true 
+	Assemble
 }
 Anteriore end
 ```
 
-Possible questions to Seaver:
+Assume{ //first pass
+	Armory - 2 // Armory.int = -2
+	Assume{
+		Assemble // will output null,null,null because of new context
+	}
+	Armory > 0.0 // Armory.boolean = false
+	Armory + 2.0 // Armory.float = 2.0
+	Again true // not yet true so repeat, dont continue to next line
+}
+Assume{// second pass
+	Armory - 2 // Armory.int = -4
+	Assume{
+		Assemble // will output null,null,null
+	}
+	Armory > 0.0 // true, Armory.float = 2.0 as declared in first pass, Armory.boolean = true
+	Armory + 2.0 // Armory.float = 4.0
+	Again true // done because true
+	Assemble //will output -4,4.0,true
+}
+
+==**Answer 2**== 
+null, null, null
+null, null, null
+-4, 4.0, true
+
+<div style="page-break-after: always;"></div>
+
 
 **Question 3**: Write code to determine output of Summation of (n). The answer should be stored in Armory.float
 
@@ -125,9 +153,23 @@ i.e., Summation of 5 is 5 + 4 + 3 + 2 + 1 = 15
 
 Pseudocode
 Start
-Assume{
-	Declare n
-	Function to Loop when adding into n. (so Assume {... Again n})
+	Start with 1 then keep going up until n
+	Add into Armory.float
+	Again n // block the Assemble, declare to repeat n times to allow increment of sum
 	Assemble 
-}
 End
+
+==**Answer 3**==
+```
+Anteriore start
+Assume{
+	Armory.int + 1
+	Armory.float = Armory.float + Armory.int
+	Again n
+	Assemble //should output: n, summation(n), null
+	}
+Anteriore end
+
+```
+
+
