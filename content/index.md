@@ -1,5 +1,5 @@
 ---
-title: The Compendium of the Mind
+title: index
 ---
 %% 
 This is a blank Quartz installation.
