@@ -50,7 +50,14 @@ I think that is about all the questions that could be asked in regards to the cr
 
 To know more about me, here are my socials!
 
-
 | GitHub                      | **Discord** | **Email**                |
 | --------------------------- | ----------- | ------------------------ |
 | https://github.com/sadhubby | sadhubby    | evanm.deguzman@gmail.com |
+
+---
+
+Evan is currently an undergraduate computer science student of a top university. He is currently doing research on the use of augmented reality as a means to assist in the learning and teach of linear algebra, linear transformations in particular. 
+
+He is also an avid gamer of Counter-Strike, last been 20k in Premiere, a developer by hobby and profession, and a lifelong learner. 
+
+If you'd like to know more about his 
