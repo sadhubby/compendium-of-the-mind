@@ -49,7 +49,6 @@ I think that is about all the questions that could be asked in regards to the cr
 To know more about me, here are my socials!
 
 
-| GitHub      | https://github.com/sadhubby |
-| ----------- | --------------------------- |
-| **Discord** | sadhubby                    |
-| **Email**   | evanm.deguzman@gmail.com    |
+| GitHub                      | **Discord** | **Email**                |
+| --------------------------- | ----------- | ------------------------ |
+| https://github.com/sadhubby | sadhubby    | evanm.deguzman@gmail.com |
