@@ -9,7 +9,8 @@ tags:
 This is a blank Quartz installation.
 See the [documentation](https://quartz.jzhao.xyz) for how to get started.
  %%
- ![[ezgif-68ddb9b368102af0.gif]]
+ 
+![[ezgif-61bf798c64a9228d.gif]]
  
 Hello everyone! This is sadhubby aka Evan! Welcome to the **Compendium of the Mind**
 
