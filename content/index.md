@@ -42,4 +42,14 @@ Never. When I pass, probably.
 
 Well, thankfully this is in Obsidian using [Obsidian Quartz](https://quartz.jzhao.xyz/). So I simply need to keep pushing new things into my repository, and it will update **this** website. As for the frequency of updates, I will try to maintain a schedule but it is mostly up in the air due to this being open when I am into something at the moment.
 
+---
 
+I think that is about all the questions that could be asked in regards to the creation of this. 
+
+To know more about me, here are my socials!
+
+
+| GitHub      | https://github.com/sadhubby |
+| ----------- | --------------------------- |
+| **Discord** | sadhubby                    |
+| **Email**   | evanm.deguzman@gmail.com    |
