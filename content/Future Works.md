@@ -6,7 +6,7 @@ tags:
 ---
 Here are some works that are still being ideated (and although the ideation stage should be part of it, its more of making a script for it.) 
 
-Will move each of the blocks into a Finished Works file. 
+Will move each of the blocks into a Finished Works file for posterity and referencing
 
 > [!info] How to make a home server
 > Steps to create a homeserver from scratch with Tailscale
