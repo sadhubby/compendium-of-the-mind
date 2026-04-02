@@ -60,4 +60,4 @@ Evan is currently an undergraduate computer science student of a top university.
 
 He is also an avid gamer of Counter-Strike, last been 20k in Premiere, a developer by hobby and profession, and a lifelong learner. 
 
-If you'd like to know more about his 
+If you'd like to know more about his **future** and **possible** topics, ideas, learnings, please take a look at [[Future Works]]
