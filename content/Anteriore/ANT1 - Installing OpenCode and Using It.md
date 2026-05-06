@@ -8,4 +8,4 @@ I'll link here multiple markdown files to make sure these are arranged properly 
 
 Firstly, we should know [[How to Install opencode]]
 
-Afterwards, we can select a myriad of settings with [[opencode commands]]]
+Afterwards, we can select a myriad of settings with [[Opencode commands]]
