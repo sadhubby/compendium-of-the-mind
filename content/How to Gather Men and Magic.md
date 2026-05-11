@@ -104,7 +104,7 @@ It is best to separate these spells as **instants** or **sorceries**. Although t
 **Instants** are instant, they can be casted ANYTIME at ANY MOMENT.
 **Sorceries** on the other hand can only be casted during main phases (unless stated otherwise with the use of the keyword "Flash")
 
-The only instant card types are instant spells and those spells with the keyword "Flash". Everything else, like the creatures, artifacts, enchantments, auras, equipment, are all sorceries.
+The only instant card types are instant spells and those spells with the keyword "Flash". Everything else, like the sorcery spells, creatures, artifacts, enchantments, auras, equipment, are all sorceries.
 
 Additionally, creatures are affected by this thing called **Summoning Sickness**. 
 Meaning they cannot use their ACTIVATED (tapped) abilities NOR CAN THEY ATTACK ON THE TURN YOU SUMMONED THEM unless they have the **keyword haste**. 
