@@ -87,7 +87,7 @@ K'rrik, Son of Yawgmoth:
 - has a MANA VALUE of **4 GENERIC MANA**, and **3 BLACK PHYREXIAN MANA.** 
 - is a **creature card** and the supertype of **legendary** 
 - has the **creature type Phyrexian Horror Minion**\
-- is a **2/2**
+- is a **2/2** power/toughness (attack/health)
 - has the **keyword lifelink**
 - has the ability of **paying 2 life instead of black mana**
 - has the effect of **whenever you cast a black spell, put a +1/+1 on K'rrik**
