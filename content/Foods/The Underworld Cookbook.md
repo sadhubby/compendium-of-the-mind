@@ -18,4 +18,3 @@ This table would include the dish and tags on it.
 | [[Tacos]]                        | beef, main,snack       |
 | [[Mango Graham]]                 | snack                  |
 | [[Beef Misono a la Tokyo-Tokyo]] | beef, main             |
-|                                  |                        |
